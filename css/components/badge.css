@@ -1,0 +1,29 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge__nav {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+}
+
+.badge__status {
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    right: -4px;
+    top: -5px;
+}
